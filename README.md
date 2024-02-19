@@ -36,3 +36,9 @@ The Session Token must be passed if you are using temporary credentials
 
 ![AWS Console](tests/tests03_see_s3_bucket.png)
 
+### Get Caller Identity
+
+You must pass the Session Token when using temporary credentials.  Note that the same user is returned for both calls, the call with temporary credentials (access key id begins with ASIA) and the call with permanent credentials (access key id begins with AKIA).
+
+![Shell](tests/tests04_get_caller_identity.png)
+
