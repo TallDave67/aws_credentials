@@ -28,11 +28,11 @@ The Session Token must be passed if you are using temporary credentials
 
 ### Get Temporary Credentials
 
-![Shell](tests\tests01_get_temporary_credentials.png)
+![Shell](tests/tests01_get_temporary_credentials.png)
 
 ### Create S3 Bucket with Temporary Credentials
 
-![Shell](tests\tests02_create_s3_bucket_with_temporary_credentials.png)
+![Shell](tests/tests02_create_s3_bucket_with_temporary_credentials.png)
 
-![AWS Console](tests\tests03_see_s3_bucket.png)
+![AWS Console](tests/tests03_see_s3_bucket.png)
 
